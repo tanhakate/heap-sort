@@ -2,11 +2,6 @@ from math import floor
 
 def parenti(i):
     return floor(i/2)
-def left(i):
-    return (2*i)+1
-def right(i):
-    return 2*i+2
-
 
 def max_heapify(array, count):
     end = 1 #end is assigned the index of the first (left) child of the root
